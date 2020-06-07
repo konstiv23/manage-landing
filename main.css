@@ -1,3 +1,7 @@
+li {
+  list-style-type: none;
+}
+
 .page {
   font-family: "Be Vietnam", sans-serif;
   font-size: 12.5px;

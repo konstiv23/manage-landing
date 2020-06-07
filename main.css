@@ -10,6 +10,7 @@ ul {
   font-family: "Be Vietnam", sans-serif;
   font-size: 12.5px;
   color: #252E55;
+  --button-color: #F3613C;
 }
 
 .container {
@@ -34,11 +35,11 @@ ul {
 }
 
 .nav-header__item {
-  padding: 0 13px;
+  padding: 0 14px;
 }
 
 .nav-header-container {
-  padding-right: 26px;
+  padding-right: 32px;
 }
 
 .logo {
@@ -100,7 +101,7 @@ ul {
 }
 
 .list-number {
-   background-color: #F3613C;
+   background-color: var(--button-color);
    color: white;
    border-radius: 19px;
    padding: 6px 19px;
@@ -199,4 +200,23 @@ ul {
 
 .header-h3 {
   font-size: 13px;
+}
+
+.get-started-button {
+  background-color: var(--button-color);
+  color: white;
+  text-decoration: none;
+  height: 35px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 17.5px;
+  font-size: 10px;
+  font-weight: 500;
+  box-shadow: 0 10px 10px -5px #FFB19E;
+}
+
+.get-started-impression-wrapper {
+  margin-top: 35px;
 }

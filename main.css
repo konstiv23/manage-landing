@@ -131,7 +131,7 @@ ul {
 
 .testimonies-list-item {
   width: 425px;
-  margin: 62px 13px;
+  margin: 62px 13px 30px 13px;
   flex-shrink: 0;
   position: relative;
 }
@@ -153,6 +153,10 @@ ul {
 
 .testimony-paragraph {
   line-height: 21px;
+}
+
+.under-testimonies-spacer {
+  margin: 0 auto 144px auto;
 }
 
 .motto {

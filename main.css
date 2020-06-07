@@ -46,12 +46,35 @@ ul {
   height: 19px;
 }
 
-.logo-container {
+.logo-wrapper {
   padding-top: 10px;
 }
 
 .first-impression {
   display: flex;
+  justify-content: space-between;
+}
+
+.first-impression-wrapper {
+  padding-top: 11px;
+}
+
+.first-impression__header {
+  line-height: 51px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.first-impression__sub-header {
+  width: 280px;
+  line-height: 20px;
+}
+
+.first-impression__image {
+  height: 417px;
+  width: 427px;
+  object-fit: cover;
+  object-position: 0 0;
 }
 
 .features {
@@ -98,4 +121,9 @@ ul {
 
 .paragraph {
   color: hsl(227, 12%, 61%);
+}
+
+.header-h1 {
+  font-size: 45px;
+  letter-spacing: -1px;
 }

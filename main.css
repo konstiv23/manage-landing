@@ -54,7 +54,11 @@ ul {
   justify-content: space-between;
 }
 
-.first-impression-wrapper {
+.first-impression-container {
+  padding-bottom: 51px;
+}
+
+.first-impression-text-container {
   padding-top: 11px;
 }
 
@@ -64,7 +68,7 @@ ul {
   font-weight: 700;
 }
 
-.first-impression__sub-header {
+.first-impression__sub-header{
   width: 280px;
   line-height: 20px;
 }
@@ -78,6 +82,36 @@ ul {
 
 .features {
   display: flex;
+}
+
+.features__subheader {
+  width: 280px;
+}
+
+.features-list {
+  width: 55%;
+  padding-top: 9px;
+}
+
+.features-list-item {
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 9px;
+}
+
+.list-number {
+   background-color: #F3613C;
+   color: white;
+   border-radius: 19px;
+   padding: 6px 19px;
+}
+
+.features-list-description {
+  padding-left: 23px;
+}
+
+.features-list__paragraph {
+  line-height: 22px;
 }
 
 .testimonies {
@@ -124,4 +158,13 @@ ul {
 
 .header-h1 {
   font-size: 45px;
+}
+
+.header-h2 {
+  line-height: 38px;
+  font-size: 31px;
+}
+
+.header-h3 {
+  font-size: 13px;
 }

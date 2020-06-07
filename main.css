@@ -156,9 +156,20 @@ ul {
 }
 
 .motto {
+  height: 178px;
+  background-color: var(--button-color);
+  padding-top: 19px;
+  box-sizing: border-box;
+}
+
+.motto-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.motto-header {
+  width: 390px;
 }
 
 .footer {
@@ -198,6 +209,11 @@ ul {
   font-size: 31px;
 }
 
+.header-h2_dark-background {
+  color: white;
+  line-height: 36px;
+}
+
 .header-h3 {
   font-size: 13px;
 }
@@ -215,6 +231,13 @@ ul {
   font-size: 10px;
   font-weight: 500;
   box-shadow: 0 10px 10px -5px #FFB19E;
+}
+
+.get-started-button_dark-background {
+  background: white;
+  color: var(--button-color);
+  font-weight: 700;
+  box-shadow: 0 10px 10px -5px #C26957;
 }
 
 .get-started-impression-wrapper {

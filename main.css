@@ -1,3 +1,51 @@
 .page {
   font-family: "Be Vietnam", sans-serif;
+  font-size: 12px;
+}
+
+.container {
+  width: 870px;
+  margin: auto;
+  padding: 5px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header {
+  display: flex;
+}
+
+.first-impression {
+  display: flex;
+}
+
+.features {
+  display: flex;
+}
+
+.testimonies {
+  text-align: center;
+}
+
+.testimonies-list {
+  display: flex;
+}
+
+.motto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  color: white;
+  background-color: #1E1E26;
+}
+
+.footer-container {
+  height: 188px;
 }

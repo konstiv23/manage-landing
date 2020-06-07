@@ -2,6 +2,10 @@ li {
   list-style-type: none;
 }
 
+ul {
+  padding-inline-start: 0;
+}
+
 .page {
   font-family: "Be Vietnam", sans-serif;
   font-size: 12.5px;
@@ -21,8 +25,29 @@ li {
   align-items: center;
 }
 
+.header-container {
+  padding-top: 35px;
+  padding-bottom: 78px;
+}
+
 .nav-header {
   display: flex;
+}
+
+.nav-header__item {
+  padding: 0 13px;
+}
+
+.nav-header-container {
+  padding-right: 26px;
+}
+
+.logo {
+  height: 19px;
+}
+
+.logo-container {
+  padding-top: 10px;
 }
 
 .first-impression {

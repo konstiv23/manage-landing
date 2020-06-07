@@ -118,8 +118,40 @@ ul {
   text-align: center;
 }
 
+.features-container {
+  padding-bottom: 55px;
+}
+
 .testimonies-list {
   display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.testimonies-list-item {
+  width: 425px;
+  margin: 62px 13px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.testimony__avatar {
+  position: absolute;
+  height: 58px;
+  left: 50%;
+  margin-left: -29px;
+  top: -29px;
+}
+
+.testimony-body {
+  background-color: #FAFAFA;
+  height: 120px;
+  padding: 36px 26px;
+  padding-bottom: 20px;
+}
+
+.testimony-paragraph {
+  line-height: 21px;
 }
 
 .motto {

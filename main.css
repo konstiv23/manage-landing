@@ -117,6 +117,7 @@ ul {
 @media screen and (max-width: 870px) {
   .first-impression__sub-header {
     width: 100%;
+    font-size: 16px !important;
     margin-top: 3px;
   }
 }
@@ -151,8 +152,21 @@ ul {
   display: flex;
 }
 
+@media screen and (max-width: 870px) {
+  .features {
+    flex-direction: column;
+    padding-top: 19px;
+  }
+}
+
 .features__subheader {
   width: 280px;
+}
+
+@media screen and (max-width: 870px) {
+  .features__subheader {
+    width: 100%;
+  }
 }
 
 .features-list {
@@ -350,7 +364,7 @@ ul {
 @media screen and (max-width: 870px) {
   .paragraph {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
   }
 }
@@ -369,6 +383,13 @@ ul {
 .header-h2 {
   line-height: 38px;
   font-size: 31px;
+}
+
+@media screen and (max-width: 870px) {
+  .header-h2 {
+    text-align: center;
+    line-height: 42px;
+  }
 }
 
 .header-h2_dark-background {

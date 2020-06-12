@@ -10,6 +10,7 @@ ul {
   font-family: "Be Vietnam", sans-serif;
   font-size: 12.5px;
   color: #252E55;
+  margin: 0;
   --button-color: #F3613C;
 }
 
@@ -177,12 +178,66 @@ ul {
 }
 
 .footer {
-  color: white;
   background-color: #1E1E26;
+  color: white;
 }
 
 .footer-container {
   height: 188px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
+}
+
+.footer-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 25.5%;
+  height: 100px;
+  padding-top: 45px;
+  flex-shrink: 0;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 51%;
+  height: 128px;
+  padding-top: 30px;
+  line-height: 27px;
+}
+
+.footer-nav-second-column {
+  padding-left: 40px;
+}
+
+.email-form {
+  padding-top: 45px;
+}
+
+.email-form__input-text {
+  height: 34px;
+  border-radius: 17px;
+  border-style: none;
+  outline: none;
+}
+
+.email-form__input-text:active {
+  outline: none;
+  border-style: none;
+}
+
+.copyright {
+  padding-top: 38px;
+  font-size: 10px;
+  text-align: right;
+  color: #888;
 }
 
 .link {
@@ -195,9 +250,10 @@ ul {
   color: inherit;
 }
 
-.link_on-dark-background {
-  font-size: 12px;
+.link_dark-background, .link_dark-background:visited {
+  font-size: 11px;
   font-weight: normal;
+  color: #ddd;
 }
 
 .paragraph {

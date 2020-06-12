@@ -82,6 +82,10 @@ ul {
   object-position: 0 0;
 }
 
+.get-started-impression-wrapper {
+  margin-top: 35px;
+}
+
 .features {
   display: flex;
 }
@@ -219,6 +223,7 @@ ul {
 
 .email-form {
   padding-top: 45px;
+  display: flex;
 }
 
 .email-form__input-text {
@@ -278,12 +283,11 @@ ul {
   font-size: 13px;
 }
 
-.get-started-button {
+.button {
   background-color: var(--button-color);
   color: white;
   text-decoration: none;
   height: 35px;
-  width: 110px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -291,15 +295,23 @@ ul {
   font-size: 10px;
   font-weight: 500;
   box-shadow: 0 10px 10px -5px #FFB19E;
+  outline: none;
+  border: none;
+}
+
+.get-started-button {
+    width: 110px;
 }
 
 .get-started-button_dark-background {
   background: white;
   color: var(--button-color);
   font-weight: 700;
-  box-shadow: 0 10px 10px -5px #C26957;
+  box-shadow: 0 10px 10px -5px #D76048;
 }
 
-.get-started-impression-wrapper {
-  margin-top: 35px;
+.go-button {
+  margin: 0 7px;
+  width: 50px;
+  box-shadow: none;
 }

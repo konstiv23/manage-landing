@@ -202,9 +202,19 @@ ul {
   align-items: flex-start;
   justify-content: space-between;
   width: 25.5%;
-  height: 100px;
+  height: 105px;
   padding-top: 45px;
   flex-shrink: 0;
+}
+
+.social {
+  width: 122px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-logo {
+  height: 16px;
 }
 
 .footer-nav {

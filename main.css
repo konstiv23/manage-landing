@@ -20,6 +20,14 @@ ul {
   padding: 5px 0;
 }
 
+@media screen and (max-width: 870px) {
+  .container {
+    width: 100%;
+    padding: 0 23px;
+    box-sizing: border-box;
+  }
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -31,8 +39,23 @@ ul {
   padding-bottom: 78px;
 }
 
+@media screen and (max-width: 870px) {
+  .header-container {
+    padding-bottom: 45px;
+  }
+}
+
 .nav-header {
   display: flex;
+}
+
+@media screen and (max-width: 870px) {
+  .nav-header {
+    display: none;
+  }
+  .button-header {
+    display: none !important;
+  }
 }
 
 .nav-header__item {
@@ -64,15 +87,38 @@ ul {
   padding-top: 11px;
 }
 
+@media screen and (max-width: 870px) {
+  .first-impression {
+    flex-direction: column;
+  }
+  .first-impression-text {
+    order: 1;
+  }
+}
+
 .first-impression__header {
   line-height: 51px;
   margin-bottom: 30px;
   font-weight: 700;
 }
 
-.first-impression__sub-header{
+@media screen and (max-width: 870px) {
+  .first-impression__header {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.first-impression__sub-header {
   width: 280px;
   line-height: 20px;
+}
+
+@media screen and (max-width: 870px) {
+  .first-impression__sub-header {
+    width: 100%;
+    margin-top: 3px;
+  }
 }
 
 .first-impression__image {
@@ -82,8 +128,23 @@ ul {
   object-position: 0 0;
 }
 
+@media screen and (max-width: 870px) {
+  .first-impression__image {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .get-started-impression-wrapper {
   margin-top: 35px;
+}
+
+@media screen and (max-width: 870px) {
+  .get-started-impression-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+  }
 }
 
 .features {
@@ -269,6 +330,7 @@ ul {
   font-size: 10px;
   text-decoration: none;
   font-weight: 550;
+  color: inherit;
 }
 
 .link:visited {
@@ -285,8 +347,23 @@ ul {
   color: hsl(227, 12%, 61%);
 }
 
+@media screen and (max-width: 870px) {
+  .paragraph {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
 .header-h1 {
   font-size: 45px;
+}
+
+@media screen and (max-width: 870px) {
+  .header-h1 {
+    font-size: 38px;
+    text-align: center;
+  }
 }
 
 .header-h2 {
@@ -319,8 +396,23 @@ ul {
   border: none;
 }
 
+@media screen and (max-width: 870px) {
+  .button {
+    height: 46px;
+    border-radius: 23px;
+    letter-spacing: 0.5px;
+  }
+}
+
 .get-started-button {
     width: 110px;
+}
+
+@media screen and (max-width: 870px) {
+  .get-started-button {
+    width: 136px;
+    font-size: 12px;
+  }
 }
 
 .get-started-button_dark-background {
@@ -337,4 +429,8 @@ ul {
   box-shadow: none;
   font-size: 9px;
   font-weight: 550;
+}
+
+.footer {
+  display: none;
 }

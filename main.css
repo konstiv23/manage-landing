@@ -222,15 +222,25 @@ ul {
 }
 
 .email-form {
-  padding-top: 45px;
+  padding-top: 49px;
   display: flex;
 }
 
 .email-form__input-text {
+  width: 158px;
   height: 34px;
   border-radius: 17px;
   border-style: none;
   outline: none;
+  padding: 4px 0 0 12px;
+  box-sizing: border-box;
+  letter-spacing: 0.3px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.email-form__input-text::placeholder {
+  color: #999;
 }
 
 .email-form__input-text:active {
@@ -313,5 +323,8 @@ ul {
 .go-button {
   margin: 0 7px;
   width: 50px;
+  padding-top: 5px;
   box-shadow: none;
+  font-size: 9px;
+  font-weight: 550;
 }

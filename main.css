@@ -47,6 +47,7 @@ ul {
 
 .nav-header {
   display: flex;
+  padding-left: 40px;
 }
 
 @media screen and (max-width: 870px) {
@@ -81,6 +82,12 @@ ul {
 
 .first-impression-container {
   padding-bottom: 51px;
+}
+
+@media screen and (max-width: 870px) {
+  .first-impression-container {
+    padding-bottom: 71px;
+  }
 }
 
 .first-impression-text-container {
@@ -152,10 +159,18 @@ ul {
   display: flex;
 }
 
+.features-header-container {
+  padding-top: 5px;
+}
+
 @media screen and (max-width: 870px) {
   .features {
     flex-direction: column;
     padding-top: 19px;
+  }
+  .features-header {
+    width: 95%;
+    margin: auto;
   }
 }
 
@@ -165,7 +180,9 @@ ul {
 
 @media screen and (max-width: 870px) {
   .features__subheader {
-    width: 100%;
+    width: 95%;
+    margin: auto;
+    margin-top: 18px;
   }
 }
 
@@ -174,10 +191,21 @@ ul {
   padding-top: 9px;
 }
 
+@media screen and (max-width: 870px) {
+  .features-list {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0;
+  }
+}
+
 .features-list-item {
-  display: flex;
   align-items: baseline;
   padding-bottom: 9px;
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  column-gap: 22px;
+  padding-bottom: 12px;
 }
 
 .list-number {
@@ -187,12 +215,19 @@ ul {
    padding: 6px 19px;
 }
 
-.features-list-description {
-  padding-left: 23px;
-}
 
 .features-list__paragraph {
-  line-height: 22px;
+  grid-column-start: 2;
+  margin-top: 3px;
+  line-height: 21px;
+}
+
+@media screen and (max-width: 870px) {
+  .features-list__paragraph {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left !important;
+  }
 }
 
 .testimonies {
@@ -389,6 +424,7 @@ ul {
   .header-h2 {
     text-align: center;
     line-height: 42px;
+    font-size: 30px;
   }
 }
 
